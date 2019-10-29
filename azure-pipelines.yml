@@ -21,7 +21,7 @@ stages:
       vmImage: 'ubuntu-latest'
     steps:
     - task: Docker@2
-      displayName: Push HelloAzureDev
+      displayName: Push HelloAzureDev to ACR
       inputs:
         containerRegistry: 'TechCommunityRegistry'
         repository: 'HelloAzureDev'
